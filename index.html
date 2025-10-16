@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .rave-box, fieldset {
+            border: 5px solid #FF4500; /* Orange-Red Border */
+            background-color: #330000; /* Dark Red/Brown background for contrast */
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 0; /* Sharp corners */
+        }
+        /* Style the image map area for better visibility */
+        .image-map-container {
+            border: 5px double #FFFF00; /* Yellow double border */
+            padding: 10px;
+            background-color: #1A0000; /* Very dark red */
+            text-align: center;
+        }
+        a {
+            color: #FFFF00; /* Yellow links */
+            text-decoration: underline;
+        }
+        /* Ensuring the navigation list looks appropriately ancient */
+        .nav-dir {
+            list-style: square inside;
+            padding-left: 0;
+            text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A PortFolio using all HTML code</title>
+</head>
+
+<body bgcolor="#000000" text="#FF8C00" link="#FFFF00" vlink="#FFFF00" alink="#FF4500" onload="loadRave()">
+
+    <header>
+        <hgroup align="center">
+            <h1 id="top">
+                <font color="#FFA500">Ahmad Raza</font>: The <blink>Ultimate</blink> <big>Extreme</big> HTML Developer
+            </h1>
+        </hgroup>
+        
+        <!-- DIR: Highly deprecated tag for a directory list, replacing the NAV container -->
+
+        <dir class="rave-box nav-dir">
+            <li><a href="#about">About</a> | <a href="#skills">Skills</a> | <a href="#image-map-nav">Image Map Nav</a> | <a href="#contact">Contact</a> | <a href="#object">Object</a></li>
+        </dir>
+
+        <hr>
+    </header>
+
+     <main>
+
+        <div class="rave-box">
+            <h2 id="about" style="color: #FFA500;">1. About the Developer</h2>
+            <center>
+                <figure>
+                   <img src="./Gemini_Generated_Image_cqb994cqb994cqb9_optimized_1000.png" alt="Developer Icon" 
+                         width="200" height="275" 
+                         hspace="25" vspace="25"
+                         style="border: 4px solid #FFFF00;">
+                    <figcaption><span id="flash-text">My Professional <mark>Headshot</mark>.</span></figcaption>
+                </figure>
+            </center>
+
+            <blockquote>
+                <p>
+                    I believe that the best code is clean, performant, and accessible. Every line matters.
+                    I focus on the fundamentals, which means my <acronym title="HyperText Markup Language">HTML</acronym> is flawless.
+                </p>
+
+                <!-- Q (Quote) with the CITE attribute -->
+
+                <q cite="https://example.com/blog/manifesto">I was in love with HTML and certain that the whole world was about to learn it, ushering in a new era of DIY media, free expression, peace and democracy and human rights worldwide. That part didn't work out so well, although the kids prefer YouTube to TV, so that's something.</q>
+                <cite>The <dfn>Developer Jeffrey</dfn> Zeldman</cite>
+            </blockquote>
+
+            <p>
+                I am a <strong>passionate</strong> developer with <em>1+ years</em> of experience. My core expertise lies in the purity of web structure. I specialize in turning complex problems into simple, elegant solutions using **HTML**, <i>JavaScript</i> (which I use externally), and backend frameworks. I am a purist.
+                My focus is always on the <abbr title="Accessibility">A11Y</abbr> of the site. I was trained on <strike>HTML 3.2</strike> <ins>HTML5</ins>.
+            </p>
+
+            <!-- Time and Data tags -->
+
+            <p>
+                Last updated on <time datetime="2025-10-16">October 16, 2025</time>. My internal ID is <data value="ANX-8472">8472</data>.
+            </p>
+        </div>
+        
+        <hr>
+
+        <div class="rave-box">
+            <h2 id="skills" style="color: #FFA500;">2. Core Skills, Technology Stack & Deprecated Tags</h2>
+            <dl style="color: #FF8C00;"></dl>
+
+            <!-- UL (Unordered List) and DIR (Deprecated Directory List) -->
+
+            <dir>
+                <li>
+                    <dt>HTML</dt>
+                    <dd><meter value="0.99" min="0" max="1">99%</meter></dd>
+                </li>
+
+                <li>
+                    <dt>JavaScript</dt>
+                    <dd><meter value="0.39" min="0" max="1">39%</meter></dd>
+                </li>
+
+                <li>
+                    <dt>Object/Param</dt>
+                    <dd><progress id="frame-skill" value="100" max="100">100%</progress></dd>
+                </li>
+
+                <li>
+                    <dt>Fieldset Table</dt>
+                    <dd><meter value="0.95" min="0" max="1">95%</meter></dd>
+                </li>
+            </dir>
+            
+            <!-- OL (Ordered List) -->
+            
+            <ol>
+                <li>
+                    Advanced <var>Algorithms</var>
+                </li>
+
+                <li>
+                    Frontend Architecture
+                </li>
+
+                <li>
+                    DevOps (for which I use <kbd>Ctrl+C</kbd> and <kbd>Ctrl+V</kbd>)
+                </li>
+            </ol>
+            
+            <!-- XMP: Extremely deprecated tag, similar to LISTING/PRE, demonstrating raw code -->
+
+            <xmp class="rave-box" style="color: #FF8C00; padding: 10px;">
+                Code Snippet (Demonstrating the <XMP> Tag):
+                <object data="placeholder.swf">
+                    <param name="movie" value="placeholder.swf">
+                </object>
+                <fieldset frame="border" rules="rows">...</fieldset>
+            </xmp>
+        </div>
+
+        <hr>
+
+        <div class="rave-box image-map-container">
+            <h2 id="image-map-nav" style="color: #FF4500;">3. Image Map Navigation System</h2>
+            
+            <p style="color: #FF8C00;">
+                Click on the colored blocks below to navigate. This image uses the **&lt;MAP&gt;** and **&lt;AREA&gt;** tags!
+            </p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924237.7079135921!2d66.49604910118018!3d25.19298389315548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1760645567385!5m2!1sen!2s" 
+                 width="600" 
+                 height="600" 
+                 style="border: 3px solid #FF4500;"
+                 allowfullscreen="" 
+                 loading="lazy" 
+                 referrerpolicy="no-referrer-when-downgrade"
+                 alt="Navigation Map" 
+                 usemap="#v23-nav-map" 
+                 ismap>
+                </iframe>
+            
+            <!-- MAP: The container for the clickable areas -->
+            
+            <map name="v23-nav-map">
+                <area shape="rect" coords="0,0,100,150" href="#about" alt="About Section" title="About Me">
+                <area shape="circle" coords="200,75,70" href="#skills" alt="Skills Section" title="Skills">
+                <!-- AREA 3: Polygon (nohref for non-functional area) -->
+                <area shape="poly" coords="300,150,400,150,400,0,350,75" nohref alt="Contact (Disabled Area)" title="Contact (Disabled Area)">
+            </map>
+            
+            <p style="font-size: 10pt; color: #FFFF00;">
+                *Note the use of the deprecated **nohref** attribute on the polygonal area, making it unclickable.*
+            </p>
+
+        </div>
+
+        <hr>
+
+        <div class="rave-box">
+            <h2 id="contact" style="color: #FFA500;">5. Contact Form and Legacy Elements</h2>
+
+            <!-- FORM: Start of the contact form -->
+
+            <form action="submit.cgi" method="post" enctype="text/plain">
+
+                <!-- FIELDSET and LEGEND to group form elements -->
+
+                <fieldset frame="border" rules="rows" style="border-color: #FFA500;">
+                    <legend style="color: #FFFF00;"><font color="Yellow">Professional Inquiry</font></legend>
+
+                    <!-- LABEL and INPUT types -->
+
+                    <p>
+                        <label for="name">Your Name (text):</label>
+                        <input type="text" id="name" name="userName" placeholder="John Smith">
+                    </p>
+
+                    <p>
+                        <label for="password">Secret Code (password):</label>
+                        <input type="password" id="password" name="userPass">
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="userEmail" placeholder="your@email.com">
+                    </p>
+
+                    <p>
+                        <label for="url">Your Website URL:</label>
+                        <input type="url" id="url" name="userUrl" placeholder="https://">
+                    </p>
+
+                    <p>
+                        <label for="search">Search Term:</label>
+                        <input type="search" id="search" name="userSearch" placeholder="Project name">
+                    </p>
+
+                    <p>
+                        <label for="date">Preferred Date:</label>
+                        <input type="date" id="date" name="preferredDate">
+                    </p>
+
+                    <!-- TEXTAREA and SELECT/OPTION -->
+
+                    <p>
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" name="userMessage" rows="5" cols="50" placeholder="Type your message here..."></textarea>
+                    </p>
+
+                    <p>
+                        <label for="type">Project Type:</label>
+                        <select id="type" name="projectType">
+                            <optgroup label="Web">
+                                <option value="portfolio">Portfolio</option>
+                                <option value="game">Web Game</option>
+                            </optgroup>
+                            <option value="other" selected>Other</option>
+                        </select>
+                    </p>
+                    
+                    <!-- KEYGEN: Deprecated key generation control -->
+
+                    <p>
+                        <keygen name="sec_key" challenge="user_challenge" keytype="rsa">
+                    </p>
+
+                    <!-- RADIO Buttons -->
+
+                    <p>
+                        <label>Engagement Level:</label><br>
+                        <input type="radio" id="level_high" name="level" value="high" checked> <label for="level_high">High (vote)</label>
+                        <input type="radio" id="level_low" name="level" value="low"> <label for="level_low">Low</label>
+                    </p>
+
+                    <!-- CHECKBOXES -->
+
+                    <p>
+                        <label>Technologies of Interest:</label><br>
+                        <input type="checkbox" id="tech_a" name="tech" value="html"> <label for="tech_a">HTML</label>
+                        <input type="checkbox" id="tech_b" name="tech" value="css"> <label for="tech_b">CSS (Future Goal)</label>
+                    </p>
+
+                    <!-- FILE Input -->
+
+                    <p>
+                        <label for="file">Attach Files:</label>
+                        <input type="file" id="file" name="attachment">
+                    </p>
+                    
+                    <!-- HIDDEN Input -->
+
+                    <input type="hidden" name="form_version" value="1.0">
+                    
+                    <!-- BUTTON (various types including Image/Submit) -->
+
+                    <p>
+                        <button type="submit">Send Inquiry</button>
+                        <input type="submit" value="Submit via Input">
+                        <button type="reset">Clear Form</button>
+                        <input type="image" src="https://placehold.co/40x40/008080/FFFFFF?text=GO" alt="Submit Image">
+                    </p>
+                </fieldset>
+
+            </form>
+
+            <!-- END FORM -->
+
+            <hr>
+
+        </div>
+
+        <div class="rave-box">
+            <h2 id="contact" style="color: #FFA500;">5. Legacy & Non-Standard Elements Showcase</h2>
+
+            <!-- MARQUEE: Deprecated element for scrolling text -->
+
+            <marquee bgcolor="#FFFFE0" behavior="scroll" direction="left" scrollamount="5">
+                <font color="#FF4500">I am scrolling text! This proves dedication to all HTML standards, past and present!</font>
+            </marquee>
+            
+            <!-- PRE: Preformatted text -->
+
+            <pre>
+                This text uses the &lt;pre&gt; tag.
+                It preserves spaces and line breaks.
+                <samp>This is sample output.</samp>
+                <var>x</var> = 5;
+            </pre>
+
+            <!-- CANVAS (as a placeholder, requires JS to function, but the tag is present) -->
+
+            <canvas id="myCanvas" width="300" height="100" style="border:1px solid #000000;">
+                Your browser does not support the canvas element.
+            </canvas>
+
+            <!-- IFRAME: Embedding content with deprecated attributes -->
+
+            <h4>Embedded Content (from a galaxy far, far away)</h4>
+            <iframe src="https://example.com" frameborder="1" scrolling="yes" seamless width="100%" height="200">
+                Fallback content for browsers that don't support iframes.
+            </iframe>
+
+            <!-- DIALOG: HTML5 but often styled with CSS. Here, it is used statically. -->
+
+            <dialog open>
+                <p>This is a static informational dialog box.</p>
+            </dialog>
+        </div>
+
+    </main>
+
+    <footer>
+        <hr>
+        <address style="text-align: center;">
+            <p>
+                Email me: <a href="mailto:attariahmadraza156@gmail.com">attariahmadraza156@gmail.com</a>
+            </p>
+            <p><small>VObject/Param and Fieldset Table Rules Integration.</small></p>
+            <p><a href="#top">Back to Top</a></p>
+        </address>
+
+    </footer>
+
+    <!-- Deprecated <basefont> tag -->
+    <basefont size="5" color="#FFFF00">
+    
+</body>
+</html>
